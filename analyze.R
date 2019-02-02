@@ -1,5 +1,5 @@
 
 d = read.csv('evidence-pops.csv')
-summary(lm(d[,'popularity'] ~ d[,'evidence'] + d[,'last_evidence'] + factor(d[,'experiment'])))
-#summary(lm(d[,'popularity'] ~ d[,'evidence'] + d[,'last_evidence'] + factor(d[,'game'])))
-#summary(lm(d[,'popularity'] ~ d[,'evidence'] + d[,'last_evidence'] + factor(d[,'game']) + factor(d[,'experiment'])))
+fit = lm(d[,'final_pops'] ~ d[,'net_evidences'] + d[,'evidences'] + factor(d[,'exp_id']))
+summary(fit)
+print(confint(fit, 'd[, "net_evidences"]', level=0.95))

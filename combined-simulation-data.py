@@ -73,6 +73,8 @@ for model in models:
 model_kdes = []
 model_in_sample = []
 
+concat_df = pd.DataFrame()
+
 for exp, experiments in enumerate(experiment_sets):
     
     for model in models:
@@ -126,7 +128,8 @@ for exp, experiments in enumerate(experiment_sets):
             df['nets'] = df['nets'].astype('str') + '-' + in_dir
 
             all_df = pd.concat([all_df, df])
-
+            if model == models[0]:
+                concat_df = pd.concat([concat_df, df])
 
             ######################
             ### Fit Regression ###
@@ -408,3 +411,9 @@ for model in models:
     print('In Sample')
     in_sample_df['Out'] = in_sample_df['Fit'] > 0.005
     print(in_sample_df[in_sample_df['Model'] == model])    
+
+concat_df.to_csv('evidence-pops.csv')
+os.system('Rscript analyze.R > tmp')
+with open('tmp') as f:
+    for l in f.readlines():
+        print(l)

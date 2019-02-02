@@ -1,0 +1,63 @@
+
+Call:
+lm(formula = d[, "final_pops"] ~ d[, "net_evidences"] + d[, "evidences"] + 
+    factor(d[, "exp_id"]))
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.49460 -0.10226  0.00508  0.10559  0.61662 
+
+Coefficients:
+                                                                   Estimate
+(Intercept)                                                        0.238021
+d[, "net_evidences"]                                               0.171048
+d[, "evidences"]                                                   0.254243
+factor(d[, "exp_id"])18a75a2d-data-2018-03-19-big-experiment       0.005726
+factor(d[, "exp_id"])6b2b35f0-rounds-10-evidence-1-bit-experiment  0.009042
+factor(d[, "exp_id"])70f80fdf-rounds-10-evidence-1-population-5    0.042863
+factor(d[, "exp_id"])abf00068-rounds-10-evidence-4-population-5    0.072439
+factor(d[, "exp_id"])b7d0390f-rounds-10-evidence-4-population-5   -0.102152
+factor(d[, "exp_id"])d75786f7-data-2018-01-25-big-experiment       0.041581
+factor(d[, "exp_id"])d9145d2a-rounds-10-evidence-1-population-5    0.249529
+                                                                  Std. Error
+(Intercept)                                                         0.043344
+d[, "net_evidences"]                                                0.066358
+d[, "evidences"]                                                    0.031205
+factor(d[, "exp_id"])18a75a2d-data-2018-03-19-big-experiment        0.041842
+factor(d[, "exp_id"])6b2b35f0-rounds-10-evidence-1-bit-experiment   0.041857
+factor(d[, "exp_id"])70f80fdf-rounds-10-evidence-1-population-5     0.041874
+factor(d[, "exp_id"])abf00068-rounds-10-evidence-4-population-5     0.041878
+factor(d[, "exp_id"])b7d0390f-rounds-10-evidence-4-population-5     0.041837
+factor(d[, "exp_id"])d75786f7-data-2018-01-25-big-experiment        0.041926
+factor(d[, "exp_id"])d9145d2a-rounds-10-evidence-1-population-5     0.041950
+                                                                  t value
+(Intercept)                                                         5.492
+d[, "net_evidences"]                                                2.578
+d[, "evidences"]                                                    8.147
+factor(d[, "exp_id"])18a75a2d-data-2018-03-19-big-experiment        0.137
+factor(d[, "exp_id"])6b2b35f0-rounds-10-evidence-1-bit-experiment   0.216
+factor(d[, "exp_id"])70f80fdf-rounds-10-evidence-1-population-5     1.024
+factor(d[, "exp_id"])abf00068-rounds-10-evidence-4-population-5     1.730
+factor(d[, "exp_id"])b7d0390f-rounds-10-evidence-4-population-5    -2.442
+factor(d[, "exp_id"])d75786f7-data-2018-01-25-big-experiment        0.992
+factor(d[, "exp_id"])d9145d2a-rounds-10-evidence-1-population-5     5.948
+                                                                  Pr(>|t|)    
+(Intercept)                                                       9.92e-08 ***
+d[, "net_evidences"]                                                0.0105 *  
+d[, "evidences"]                                                  1.88e-14 ***
+factor(d[, "exp_id"])18a75a2d-data-2018-03-19-big-experiment        0.8913    
+factor(d[, "exp_id"])6b2b35f0-rounds-10-evidence-1-bit-experiment   0.8292    
+factor(d[, "exp_id"])70f80fdf-rounds-10-evidence-1-population-5     0.3070    
+factor(d[, "exp_id"])abf00068-rounds-10-evidence-4-population-5     0.0849 .  
+factor(d[, "exp_id"])b7d0390f-rounds-10-evidence-4-population-5     0.0153 *  
+factor(d[, "exp_id"])d75786f7-data-2018-01-25-big-experiment        0.3223    
+factor(d[, "exp_id"])d9145d2a-rounds-10-evidence-1-population-5   9.26e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1672 on 246 degrees of freedom
+Multiple R-squared:  0.4266,	Adjusted R-squared:  0.4056 
+F-statistic: 20.33 on 9 and 246 DF,  p-value: < 2.2e-16
+
+                          2.5 %    97.5 %
+d[, "net_evidences"] 0.04034611 0.3017496
