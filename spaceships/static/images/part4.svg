@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg3347"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="spaghettibreaks.svg"
+   inkscape:export-filename="/home/appreciate/Dropbox (MIT)/rumor-spreading-modeling/experiments/spaceship/spaghettibreakspng"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs3349" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.76"
+     inkscape:cx="153.28947"
+     inkscape:cy="520"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1058"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3352">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 198.68421,476.04642 c 88.1579,157.89473 289.47368,153.94736 289.47368,153.94736 l -202.63157,3.94737 0,1.31579 -88.1579,-155.26316 z"
+       id="path3665"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#008000"
+       d="m 245.93478,563.50273 c -21.55824,-38.15335 -39.00805,-69.55849 -38.77734,-69.78919 0.2307,-0.2307 4.65305,5.32153 9.82744,12.33829 48.31841,65.52239 130.20948,109.35368 227.556,121.79685 12.59605,1.61006 11.61361,1.682 -35.0672,2.56745 -26.41447,0.50104 -65.19736,1.25868 -86.18421,1.68365 l -38.15789,0.77269 -39.1968,-69.36974 z"
+       id="path3667"
+       inkscape:connector-curvature="0" />
+    <ellipse
+       style="fill:#ff00ff"
+       id="path3669"
+       cx="324.3421"
+       cy="554.99377"
+       rx="26.973684"
+       ry="57.894737" />
+    <path
+       style="fill:#000000"
+       d="m 320.77103,611.39453 c -9.16215,-2.45034 -17.68368,-17.45371 -21.10889,-37.16521 -2.54119,-14.6241 -2.5609,-23.7444 -0.082,-37.95935 4.68058,-26.84045 15.71157,-41.34874 28.70964,-37.7598 12.84089,3.54554 21.97339,27.02104 21.97339,56.48361 0,23.46208 -5.47474,42.22913 -15.13813,51.89252 -4.80393,4.80393 -8.68754,6.02367 -14.354,4.50823 z"
+       id="path3671"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <div class="main_div">
+        <h1>Instructions</h1>
+
+        <hr>
+
+        <p>In this experiment, you will play the role of a research laboratory
+        technician examining classifications of gemstones.</p>
+
+        <p>We will ask you to classify eight specimens.</p>
+
+        <p>There can be multiple true classifications for each specimen.</p>
+
+        <p>You can make your judgments of the classifications based on two sources of
+        information. One source of information is the laboratory tests you run
+        yourself. The second source of information is judgments from previous
+        technicians.</p>
+
+        <p>Each test you run yourself will indicate a selection of possible
+        classifications the specimen. For example, one test might indicate that
+        a specimen is likely one of either the "pesho", "ivil", or "thyun"
+        classifications, which are all names of potential classifications.
+        <b>The true classifications have a 60% chance of producing positive
+        evidence in each test, while each incorrect classification has a 30%
+        chance of producing positive evidence.</b> Usually about half of the
+        classifications will be correct and about half will be incorrect.</p>
+
+        <p>As for the second source of information you will have, the set of
+        technicians working on this project (i.e., previous MTurk workers)
+        operate in shifts. You will be able to observe the judgment of workers
+        from the previous shift as long as you are not in the first shift. For
+        example, you might see that a technician from the previous round chose
+        "pesho" and "ivil" as their judged classifications.</p>
+
+        <p>You will receive a bonus based on your performance at classification.</p>
+
+        <hr>
+
+        <div>
+            <div class="row">
+                <div class="col-xs-10"></div>
+                <div class="col-xs-2">
+                    <button type="button" class="btn btn-success btn-lg" onClick="advance()">
+                    Begin</button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    <script>
+
+        advance = function (){
+
+            $(document).ready(function () {
+                dallinger.createParticipant()
+                .done(function (response) {
+                    dallinger.goToPage('attention-check')
+                })
+            })
+        }
+
+    </script>
+{% endblock %}

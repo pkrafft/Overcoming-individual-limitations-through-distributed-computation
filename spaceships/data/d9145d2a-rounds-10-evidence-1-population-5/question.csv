@@ -1,0 +1,214 @@
+id,creation_time,property1,property2,property3,property4,property5,failed,time_of_death,type,participant_id,number,question,response
+1,2018-01-29 02:10:42.225023,,,,,,f,,question,1,1,time,10
+2,2018-01-29 02:10:42.290279,,,,,,f,,question,1,2,multi-confusing,It was impossible to know which parts had a greater or smaller likelihood of failing. I had no idea what I was doing.
+3,2018-01-29 02:10:42.357523,,,,,,f,,question,1,3,"",""
+4,2018-01-29 02:10:42.423724,,,,,,f,,question,1,4,"",""
+5,2018-01-29 02:36:27.364526,,,,,,f,,question,2,1,time,7
+6,2018-01-29 02:36:27.456485,,,,,,f,,question,2,2,multi-confusing,no
+7,2018-01-29 02:36:27.550851,,,,,,f,,question,2,3,"",""
+8,2018-01-29 02:36:27.661546,,,,,,f,,question,2,4,"",""
+9,2018-01-29 02:45:44.797819,,,,,,f,,question,3,1,time,12
+10,2018-01-29 02:45:44.998023,,,,,,f,,question,3,2,multi-confusing,nope
+11,2018-01-29 02:45:45.140343,,,,,,f,,question,3,3,"",""
+12,2018-01-29 02:45:45.420386,,,,,,f,,question,3,4,"",""
+13,2018-01-29 03:14:58.006729,,,,,,f,,question,4,1,time,7
+14,2018-01-29 03:14:58.102622,,,,,,f,,question,4,2,multi-confusing,""
+15,2018-01-29 03:14:58.20766,,,,,,f,,question,4,3,"",""
+16,2018-01-29 03:14:58.304687,,,,,,f,,question,4,4,"",""
+17,2018-01-29 03:22:47.934561,,,,,,f,,question,5,1,time,12
+18,2018-01-29 03:22:48.017084,,,,,,f,,question,5,2,multi-confusing,Most of it. How was i supposed to know what parts were good or bad? It seemed like each round had completely different parts?
+19,2018-01-29 03:22:48.098682,,,,,,f,,question,5,3,"",""
+20,2018-01-29 03:22:48.181825,,,,,,f,,question,5,4,"",""
+21,2018-01-29 03:36:27.692495,,,,,,f,,question,6,1,time,5
+22,2018-01-29 03:36:27.827892,,,,,,f,,question,6,2,multi-confusing,"use of red and green colors. couldn't tell what was going on. even if I wasn't red-green colorblind, parts too small to see. Picked stuff at random."
+23,2018-01-29 03:36:27.903028,,,,,,f,,question,6,3,"",""
+24,2018-01-29 03:36:27.980857,,,,,,f,,question,6,4,"",""
+25,2018-01-29 04:19:56.321775,,,,,,f,,question,7,1,time,12
+26,2018-01-29 04:19:56.494844,,,,,,f,,question,7,2,multi-confusing,"i found this hit to be really fun, it felt like a game instead of a chore"
+27,2018-01-29 04:19:56.609875,,,,,,f,,question,7,3,"",""
+28,2018-01-29 04:19:56.712708,,,,,,f,,question,7,4,"",""
+29,2018-01-29 04:37:22.781328,,,,,,f,,question,8,1,time,5
+30,2018-01-29 04:37:22.879209,,,,,,f,,question,8,2,multi-confusing,no 
+31,2018-01-29 04:37:22.932066,,,,,,f,,question,8,3,"",""
+32,2018-01-29 04:37:23.031887,,,,,,f,,question,8,4,"",""
+33,2018-01-29 04:53:19.669849,,,,,,f,,question,9,1,time,7
+34,2018-01-29 04:53:19.803282,,,,,,f,,question,9,2,multi-confusing,"no, nothing was confusing"
+35,2018-01-29 04:53:19.939518,,,,,,f,,question,9,3,"",""
+36,2018-01-29 04:53:20.066625,,,,,,f,,question,9,4,"",""
+37,2018-01-29 05:16:07.041721,,,,,,f,,question,10,1,time,12
+38,2018-01-29 05:16:07.202084,,,,,,f,,question,10,2,multi-confusing,Nope
+39,2018-01-29 05:16:07.314454,,,,,,f,,question,10,3,"",""
+40,2018-01-29 05:16:07.430579,,,,,,f,,question,10,4,"",""
+41,2018-01-29 05:28:49.23132,,,,,,f,,question,11,1,time,10
+42,2018-01-29 05:28:49.307023,,,,,,f,,question,11,2,multi-confusing,No
+43,2018-01-29 05:28:49.398691,,,,,,f,,question,11,3,"",""
+44,2018-01-29 05:28:49.475611,,,,,,f,,question,11,4,"",""
+45,2018-01-29 05:45:41.474319,,,,,,f,,question,12,1,time,7
+46,2018-01-29 05:45:41.535113,,,,,,f,,question,12,2,multi-confusing,""
+47,2018-01-29 05:45:41.596812,,,,,,f,,question,12,3,"",""
+48,2018-01-29 05:45:41.656793,,,,,,f,,question,12,4,"",""
+49,2018-01-29 06:18:57.588325,,,,,,f,,question,13,1,time,7
+50,2018-01-29 06:18:57.712371,,,,,,f,,question,13,2,multi-confusing,The Parts of the ships and the outcomes
+51,2018-01-29 06:18:57.838002,,,,,,f,,question,13,3,"",""
+52,2018-01-29 06:18:57.947745,,,,,,f,,question,13,4,"",""
+53,2018-01-29 09:35:12.678575,,,,,,f,,question,15,1,time,7
+54,2018-01-29 09:35:12.744011,,,,,,f,,question,15,2,multi-confusing,I found the fact that my ship only worked once confusing.  I don't believe I caught any patterns before my trials were up.
+55,2018-01-29 09:35:12.808609,,,,,,f,,question,15,3,"",""
+56,2018-01-29 09:35:12.874117,,,,,,f,,question,15,4,"",""
+57,2018-01-29 09:52:38.444726,,,,,,f,,question,16,1,time,7
+58,2018-01-29 09:52:38.524994,,,,,,f,,question,16,2,multi-confusing,No it all seemed pretty straight forward
+59,2018-01-29 09:52:38.597792,,,,,,f,,question,16,3,"",""
+60,2018-01-29 09:52:38.65865,,,,,,f,,question,16,4,"",""
+61,2018-01-29 10:06:23.600106,,,,,,f,,question,17,1,time,10
+62,2018-01-29 10:06:23.646168,,,,,,f,,question,17,2,multi-confusing,no
+63,2018-01-29 10:06:23.704897,,,,,,f,,question,17,3,"",""
+64,2018-01-29 10:06:23.767792,,,,,,f,,question,17,4,"",""
+65,2018-01-29 10:35:49.766329,,,,,,f,,question,19,1,time,10
+66,2018-01-29 10:35:49.894205,,,,,,f,,question,19,2,multi-confusing,It was pretty straight forward. 
+67,2018-01-29 10:35:50.027893,,,,,,f,,question,19,3,"",""
+68,2018-01-29 10:35:50.164234,,,,,,f,,question,19,4,"",""
+69,2018-01-29 10:44:21.280088,,,,,,f,,question,20,1,time,10
+70,2018-01-29 10:44:21.351887,,,,,,f,,question,20,2,multi-confusing,no.
+71,2018-01-29 10:44:21.430564,,,,,,f,,question,20,3,"",""
+72,2018-01-29 10:44:21.509637,,,,,,f,,question,20,4,"",""
+73,2018-01-29 10:44:21.74556,,,,,,f,,question,20,1,time,10
+74,2018-01-29 10:52:40.397418,,,,,,f,,question,21,1,time,7
+75,2018-01-29 10:52:40.474918,,,,,,f,,question,21,2,multi-confusing,No
+76,2018-01-29 10:52:40.554386,,,,,,f,,question,21,3,"",""
+77,2018-01-29 10:52:40.635311,,,,,,f,,question,21,4,"",""
+78,2018-01-29 10:59:00.95569,,,,,,f,,question,22,1,time,5
+79,2018-01-29 10:59:01.040331,,,,,,f,,question,22,2,multi-confusing,no
+80,2018-01-29 10:59:01.112751,,,,,,f,,question,22,3,"",""
+81,2018-01-29 10:59:01.188323,,,,,,f,,question,22,4,"",""
+82,2018-01-29 11:17:51.171135,,,,,,f,,question,23,1,time,7
+83,2018-01-29 11:17:51.527264,,,,,,f,,question,23,2,multi-confusing,No
+84,2018-01-29 11:17:51.710241,,,,,,f,,question,23,3,"",""
+85,2018-01-29 11:17:51.832648,,,,,,f,,question,23,4,"",""
+86,2018-01-29 11:28:14.009613,,,,,,f,,question,25,1,time,0
+87,2018-01-29 11:28:14.082734,,,,,,f,,question,25,2,multi-confusing,Unique and interesting
+88,2018-01-29 11:28:14.16336,,,,,,f,,question,25,3,"",""
+89,2018-01-29 11:28:14.250089,,,,,,f,,question,25,4,"",""
+90,2018-01-29 11:42:59.714326,,,,,,f,,question,26,1,time,12
+91,2018-01-29 11:42:59.797586,,,,,,f,,question,26,2,multi-confusing,"No, it was straightforward"
+92,2018-01-29 11:42:59.886243,,,,,,f,,question,26,3,"",""
+93,2018-01-29 11:42:59.962045,,,,,,f,,question,26,4,"",""
+98,2018-01-29 12:53:43.49717,,,,,,f,,question,29,1,time,7
+94,2018-01-29 12:44:14.732818,,,,,,f,,question,28,1,time,10
+95,2018-01-29 12:44:14.808482,,,,,,f,,question,28,2,multi-confusing,"No, but it was difficult!"
+96,2018-01-29 12:44:14.875629,,,,,,f,,question,28,3,"",""
+97,2018-01-29 12:44:14.943117,,,,,,f,,question,28,4,"",""
+104,2018-01-29 14:24:22.165225,,,,,,f,,question,30,3,"",""
+109,2018-01-29 15:32:51.036911,,,,,,f,,question,31,4,"",""
+99,2018-01-29 12:53:43.605214,,,,,,f,,question,29,2,multi-confusing,no
+100,2018-01-29 12:53:43.71567,,,,,,f,,question,29,3,"",""
+101,2018-01-29 12:53:43.825129,,,,,,f,,question,29,4,"",""
+103,2018-01-29 14:24:22.053491,,,,,,f,,question,30,2,multi-confusing,no
+105,2018-01-29 14:24:22.261942,,,,,,f,,question,30,4,"",""
+102,2018-01-29 14:24:21.982911,,,,,,f,,question,30,1,time,10
+106,2018-01-29 15:32:50.135881,,,,,,f,,question,31,1,time,5
+107,2018-01-29 15:32:50.266328,,,,,,f,,question,31,2,multi-confusing,No
+108,2018-01-29 15:32:50.907448,,,,,,f,,question,31,3,"",""
+110,2018-01-29 15:45:29.010309,,,,,,f,,question,32,1,time,7
+111,2018-01-29 15:45:30.084682,,,,,,f,,question,32,2,multi-confusing,No.
+112,2018-01-29 15:45:31.033666,,,,,,f,,question,32,3,"",""
+113,2018-01-29 15:45:31.88379,,,,,,f,,question,32,1,time,7
+114,2018-01-29 15:45:31.997191,,,,,,f,,question,32,4,"",""
+115,2018-01-29 15:45:32.80231,,,,,,f,,question,32,2,multi-confusing,No.
+116,2018-01-29 15:45:33.889268,,,,,,f,,question,32,1,time,7
+117,2018-01-29 15:45:33.900568,,,,,,f,,question,32,3,"",""
+118,2018-01-29 15:45:35.014528,,,,,,f,,question,32,4,"",""
+119,2018-01-29 15:45:35.028885,,,,,,f,,question,32,2,multi-confusing,No.
+120,2018-01-29 15:45:36.009293,,,,,,f,,question,32,3,"",""
+121,2018-01-29 16:11:40.197432,,,,,,f,,question,33,1,time,10
+122,2018-01-29 16:11:40.362186,,,,,,f,,question,33,2,multi-confusing,no
+123,2018-01-29 16:11:40.522808,,,,,,f,,question,33,3,"",""
+124,2018-01-29 16:11:40.695214,,,,,,f,,question,33,4,"",""
+125,2018-01-29 18:00:54.257714,,,,,,f,,question,34,1,time,12
+126,2018-01-29 18:00:55.473822,,,,,,f,,question,34,2,multi-confusing,No
+127,2018-01-29 18:00:56.595195,,,,,,f,,question,34,3,"",""
+128,2018-01-29 18:00:57.286926,,,,,,f,,question,34,4,"",""
+129,2018-01-29 18:01:00.816739,,,,,,f,,question,34,1,time,12
+130,2018-01-29 18:15:04.107464,,,,,,f,,question,35,1,time,7
+131,2018-01-29 18:15:04.26337,,,,,,f,,question,35,2,multi-confusing,no
+132,2018-01-29 18:15:04.43445,,,,,,f,,question,35,3,"",""
+133,2018-01-29 18:15:04.556439,,,,,,f,,question,35,4,"",""
+134,2018-01-29 18:29:41.426586,,,,,,f,,question,36,1,time,7
+135,2018-01-29 18:29:41.515043,,,,,,f,,question,36,2,multi-confusing,Nope!
+136,2018-01-29 18:29:41.608865,,,,,,f,,question,36,3,"",""
+137,2018-01-29 18:29:41.703139,,,,,,f,,question,36,4,"",""
+138,2018-01-29 18:35:58.323551,,,,,,f,,question,37,1,time,5
+139,2018-01-29 18:35:58.401182,,,,,,f,,question,37,2,multi-confusing,"No, everything worked fine"
+140,2018-01-29 18:35:58.471193,,,,,,f,,question,37,3,"",""
+141,2018-01-29 18:35:58.542259,,,,,,f,,question,37,4,"",""
+142,2018-01-29 18:57:24.009479,,,,,,f,,question,38,1,time,5
+143,2018-01-29 18:57:24.246444,,,,,,f,,question,38,2,multi-confusing,"The random nature that parts failed, no consistency from what the last participant choose and did or did not have fail"
+144,2018-01-29 18:57:24.437903,,,,,,f,,question,38,3,"",""
+145,2018-01-29 18:57:24.672674,,,,,,f,,question,38,4,"",""
+146,2018-01-29 19:12:46.102846,,,,,,f,,question,39,1,time,7
+147,2018-01-29 19:12:46.162369,,,,,,f,,question,39,2,multi-confusing,"yes, there was no correlation to what the previous player chose to what I chose. Therefore, I was confused as to why I was seeing them."
+148,2018-01-29 19:12:46.231753,,,,,,f,,question,39,3,"",""
+149,2018-01-29 19:12:46.284101,,,,,,f,,question,39,4,"",""
+150,2018-01-29 20:11:56.473448,,,,,,f,,question,40,1,time,10
+151,2018-01-29 20:11:57.273559,,,,,,f,,question,40,2,multi-confusing,yes in a way. reason is the parts that work on one may not work on another
+152,2018-01-29 20:11:58.030758,,,,,,f,,question,40,1,time,10
+153,2018-01-29 20:11:58.270948,,,,,,f,,question,40,3,"",""
+154,2018-01-29 20:11:58.803818,,,,,,f,,question,40,2,multi-confusing,yes in a way. reason is the parts that work on one may not work on another
+155,2018-01-29 20:11:59.04083,,,,,,f,,question,40,4,"",""
+156,2018-01-29 20:11:59.63629,,,,,,f,,question,40,3,"",""
+157,2018-01-29 20:12:00.481761,,,,,,f,,question,40,4,"",""
+158,2018-01-29 21:07:45.913845,,,,,,f,,question,41,1,time,10
+159,2018-01-29 21:07:46.014038,,,,,,f,,question,41,2,multi-confusing,No
+160,2018-01-29 21:07:46.139918,,,,,,f,,question,41,3,"",""
+161,2018-01-29 21:07:46.23509,,,,,,f,,question,41,4,"",""
+162,2018-01-29 21:29:42.163304,,,,,,f,,question,43,1,time,10
+163,2018-01-29 21:29:42.231709,,,,,,f,,question,43,2,multi-confusing,no
+164,2018-01-29 21:29:42.300534,,,,,,f,,question,43,3,"",""
+165,2018-01-29 21:29:42.370038,,,,,,f,,question,43,4,"",""
+166,2018-01-29 21:36:45.981638,,,,,,f,,question,44,1,time,12
+167,2018-01-29 21:36:46.04339,,,,,,f,,question,44,2,multi-confusing,Figuring out what combinations would work well
+168,2018-01-29 21:36:46.105307,,,,,,f,,question,44,3,"",""
+169,2018-01-29 21:36:46.178761,,,,,,f,,question,44,4,"",""
+170,2018-01-30 01:12:28.856937,,,,,,f,,question,45,1,time,7
+171,2018-01-30 01:12:29.993884,,,,,,f,,question,45,2,multi-confusing,"No, I just decided to start using everything for the chance for more money, since things failed randomly anyway."
+172,2018-01-30 01:12:30.779389,,,,,,f,,question,45,3,"",""
+173,2018-01-30 01:12:31.919284,,,,,,f,,question,45,4,"",""
+174,2018-01-30 01:50:49.242315,,,,,,f,,question,46,1,time,15
+175,2018-01-30 01:50:49.378815,,,,,,f,,question,46,2,multi-confusing,"A little, I did my best, however."
+176,2018-01-30 01:50:49.516474,,,,,,f,,question,46,3,"",""
+177,2018-01-30 01:50:49.836534,,,,,,f,,question,46,4,"",""
+178,2018-01-30 04:04:16.189819,,,,,,f,,question,47,1,time,5
+179,2018-01-30 04:04:16.351286,,,,,,f,,question,47,2,multi-confusing,"No, thank you."
+180,2018-01-30 04:04:16.469665,,,,,,f,,question,47,3,"",""
+181,2018-01-30 04:04:16.574922,,,,,,f,,question,47,4,"",""
+182,2018-01-30 05:30:58.10922,,,,,,f,,question,49,1,time,15
+183,2018-01-30 05:30:58.225449,,,,,,f,,question,49,2,multi-confusing,no
+184,2018-01-30 05:30:58.336347,,,,,,f,,question,49,3,"",""
+185,2018-01-30 05:30:58.441765,,,,,,f,,question,49,4,"",""
+186,2018-01-30 05:37:33.545505,,,,,,f,,question,50,1,time,7
+187,2018-01-30 05:37:33.632038,,,,,,f,,question,50,2,multi-confusing,No
+188,2018-01-30 05:37:33.710641,,,,,,f,,question,50,3,"",""
+189,2018-01-30 05:37:33.784242,,,,,,f,,question,50,4,"",""
+190,2018-01-30 08:23:34.495804,,,,,,f,,question,54,1,time,5
+191,2018-01-30 08:23:34.551783,,,,,,f,,question,54,2,multi-confusing,Nothing
+192,2018-01-30 08:23:34.60547,,,,,,f,,question,54,3,"",""
+193,2018-01-30 08:23:34.652402,,,,,,f,,question,54,4,"",""
+194,2018-01-30 08:35:13.867079,,,,,,f,,question,55,1,time,12
+195,2018-01-30 08:35:14.122764,,,,,,f,,question,55,2,multi-confusing,I was trying to find logic in it but couldn't
+196,2018-01-30 08:35:14.376092,,,,,,f,,question,55,3,"",""
+197,2018-01-30 08:35:14.626385,,,,,,f,,question,55,4,"",""
+198,2018-01-30 08:42:08.550973,,,,,,f,,question,56,1,time,5
+204,2018-01-30 09:12:00.266469,,,,,,f,,question,58,3,"",""
+208,2018-01-30 09:19:50.46668,,,,,,f,,question,59,3,"",""
+210,2018-01-30 09:36:29.411071,,,,,,f,,question,60,1,time,12
+213,2018-01-30 09:36:29.733422,,,,,,f,,question,60,4,"",""
+199,2018-01-30 08:42:08.658619,,,,,,f,,question,56,2,multi-confusing,No
+206,2018-01-30 09:19:50.247619,,,,,,f,,question,59,1,time,0
+200,2018-01-30 08:42:08.773,,,,,,f,,question,56,3,"",""
+201,2018-01-30 08:42:08.88351,,,,,,f,,question,56,4,"",""
+202,2018-01-30 09:12:00.017742,,,,,,f,,question,58,1,time,15
+203,2018-01-30 09:12:00.144591,,,,,,f,,question,58,2,multi-confusing,I found it confusing to identify which parts would earn points versus those parts which would not. Making a determination seemed random in most trials because it seemed more often than not that there was no pattern to help indicate which parts I shoud avoid or not.
+205,2018-01-30 09:12:00.38913,,,,,,f,,question,58,4,"",""
+207,2018-01-30 09:19:50.359302,,,,,,f,,question,59,2,multi-confusing,no
+209,2018-01-30 09:19:50.57543,,,,,,f,,question,59,4,"",""
+211,2018-01-30 09:36:29.524278,,,,,,f,,question,60,2,multi-confusing,no
+212,2018-01-30 09:36:29.63223,,,,,,f,,question,60,3,"",""

@@ -1,0 +1,35 @@
+{% extends "base/questionnaire.html" %}
+
+{% block questions %}
+
+
+
+ <div class="row question">
+      <div class="col-md-8">
+          How would you describe the strategy you used in this game?
+      </div>
+      <div class="col-md-4">
+        <textarea rows="2" cols="50" id="strategy" name="strategy"></textarea>
+      </div>
+  </div>
+
+  <div class="row question">
+       <div class="col-md-8">
+           Did you find anything in this task confusing?
+       </div>
+       <div class="col-md-4">
+         <textarea rows="2" cols="50" id="confusing" name="confusing"></textarea>
+       </div>
+   </div>
+
+  <div class="row question">
+     <div class="col-md-8">
+         How long did this task take you?
+     </div>
+     <div class="col-md-4">
+         <input type="text" id="time" name="time">
+     </div>
+ </div>
+
+
+{% endblock %}

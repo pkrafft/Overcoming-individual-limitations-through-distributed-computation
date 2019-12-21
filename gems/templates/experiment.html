@@ -1,0 +1,66 @@
+{% extends "layout.html" %}
+
+{% block head %}
+<style>
+table, th, td {
+  border: 3px solid black;
+}
+th, td {
+  padding: 10px;
+}
+</style>
+{% endblock %}
+
+{% block body %}
+    <div class="main_div">
+
+        <div id="response-form">
+            <h3>Gem Classification</h3>
+            <img id="graphic" src='' style='width:75px;height:75x;'>
+            <div id="loading"><p>&lt;&lt; loading &gt;&gt;</p></div>
+            <div id="context" style="display:none;"></div>
+            <div id="previous" style="display:none;"><div id="previous-text"></div><div id="previous-table"></div></div>
+          </br>
+          <div id="your-lab" style="display:none;">
+            <h4>Back in the Lab</h4>
+            <div id="evidence-table"></div>
+            <div id="evidence-1"></div>
+            <div id="evidence-2"></div>
+            <div id="evidence-3"></div>
+            <div id="evidence-4"></div>
+          </br>
+        </div>
+          <div id="your-choice" style="display:none;">
+            <h4>Classification</h4>
+            <div id="choice-text" style="display:none;">
+              <p>What do you think the classifications of this gem are?</br><b>[To see the opinion of another technician from the previous shift click <a onclick="resample();">here</a>.</b>]</p>
+            </div>
+            <div id="alt-choice-text"><p>What do you think the classifications of this gem are?</p></div>
+            <div id="classification-table"></div>
+            <div>
+              <p>
+              <!-- <select name="classification" id="classification">
+                <option selected="selected"></option>
+              </select> -->
+              <button id="submit-response" type="button" class="btn btn-primary" disabled="disabled">Submit</button>
+            </p>
+            </div>
+            <div id="nextsample"></div>
+            <div id="resample-text"  style="display:none;">
+              <b>To see the notes of another technician from the previous shift click <a onclick="resample();">here</a></b>.
+            </div>
+          </br></br>
+            </div>
+              <p>
+                <button id="continue" type="button" class="btn btn-secondary"  disabled="disabled">Loading...</button>
+              </p>
+
+        </div>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+    <script>
+        create_agent();
+    </script>
+{% endblock %}
