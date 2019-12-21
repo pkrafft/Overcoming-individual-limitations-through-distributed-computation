@@ -1,9 +1,0 @@
-id,creation_time,property1,property2,property3,property4,property5,failed,time_of_death,type,max_size,full,role
-1,2018-01-28 23:47:33.855278,10,5,,,,f,,particle_network,51,t,practice
-2,2018-01-28 23:47:33.858163,10,5,,,,f,,particle_network,51,t,practice
-3,2018-01-28 23:47:33.859911,10,5,,,,f,,particle_network,51,t,practice
-4,2018-01-28 23:47:33.86173,10,5,,,,f,,particle_network,51,t,practice
-6,2018-01-28 23:47:33.865352,10,5,,,,f,,particle_network,51,t,experiment
-7,2018-01-28 23:47:33.86703,10,5,,,,f,,particle_network,51,t,experiment
-8,2018-01-28 23:47:33.86861,10,5,,,,f,,particle_network,51,t,experiment
-5,2018-01-28 23:47:33.863187,10,5,,,,f,,particle_network,51,t,experiment
