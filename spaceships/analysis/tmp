@@ -1,0 +1,214 @@
+
+Call:
+lm(formula = Popularity ~ Total.Evidence + Last.Evidence + factor(Experiment) + 
+    factor(Game.Net), data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.63296 -0.11521 -0.00616  0.11684  0.68432 
+
+Coefficients: (4 not defined because of singularities)
+                                                                          Estimate
+(Intercept)                                                               0.294710
+Total.Evidence                                                            0.052269
+Last.Evidence                                                             0.245841
+factor(Experiment)1                                                       0.032488
+factor(Experiment)2                                                      -0.011698
+factor(Experiment)3                                                       0.010894
+factor(Experiment)4                                                       0.121556
+factor(Game.Net)095ddcbc-rounds-10-evidence-4-big-experiment-high-prob-5  0.009598
+factor(Game.Net)095ddcbc-rounds-10-evidence-4-big-experiment-high-prob-6 -0.028187
+factor(Game.Net)095ddcbc-rounds-10-evidence-4-big-experiment-high-prob-7 -0.005010
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-4                 0.063910
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-5                 0.024565
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-6                 0.057385
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-7                 0.076546
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-4            0.054817
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-5            0.010565
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-6            0.008227
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-7                  NA
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-4             -0.086925
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-5             -0.100583
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-6             -0.055281
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-7             -0.075484
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-4              0.015176
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-5              0.036161
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-6              0.044992
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-7             -0.013157
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-4             -0.024747
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-5             -0.038763
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-6             -0.028276
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-7                    NA
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-4                 0.013919
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-5                 0.002100
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-6                 0.003590
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-7                       NA
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-4              0.006829
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-5              0.019947
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-6              0.065324
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-7                    NA
+                                                                         Std. Error
+(Intercept)                                                                0.023221
+Total.Evidence                                                             0.021442
+Last.Evidence                                                              0.013117
+factor(Experiment)1                                                        0.030889
+factor(Experiment)2                                                        0.030817
+factor(Experiment)3                                                        0.030784
+factor(Experiment)4                                                        0.030836
+factor(Game.Net)095ddcbc-rounds-10-evidence-4-big-experiment-high-prob-5   0.030842
+factor(Game.Net)095ddcbc-rounds-10-evidence-4-big-experiment-high-prob-6   0.030775
+factor(Game.Net)095ddcbc-rounds-10-evidence-4-big-experiment-high-prob-7   0.030791
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-4                  0.030775
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-5                  0.030814
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-6                  0.030785
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-7                  0.030806
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-4             0.030802
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-5             0.030810
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-6             0.030789
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-7                   NA
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-4               0.030815
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-5               0.030803
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-6               0.030877
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-7               0.030807
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-4               0.030789
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-5               0.030779
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-6               0.030776
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-7               0.030781
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-4               0.030805
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-5               0.030780
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-6               0.030781
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-7                     NA
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-4                  0.030789
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-5                  0.030779
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-6                  0.030856
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-7                        NA
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-4               0.030834
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-5               0.031109
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-6               0.030996
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-7                     NA
+                                                                         t value
+(Intercept)                                                               12.692
+Total.Evidence                                                             2.438
+Last.Evidence                                                             18.742
+factor(Experiment)1                                                        1.052
+factor(Experiment)2                                                       -0.380
+factor(Experiment)3                                                        0.354
+factor(Experiment)4                                                        3.942
+factor(Game.Net)095ddcbc-rounds-10-evidence-4-big-experiment-high-prob-5   0.311
+factor(Game.Net)095ddcbc-rounds-10-evidence-4-big-experiment-high-prob-6  -0.916
+factor(Game.Net)095ddcbc-rounds-10-evidence-4-big-experiment-high-prob-7  -0.163
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-4                  2.077
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-5                  0.797
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-6                  1.864
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-7                  2.485
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-4             1.780
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-5             0.343
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-6             0.267
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-7                NA
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-4              -2.821
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-5              -3.265
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-6              -1.790
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-7              -2.450
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-4               0.493
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-5               1.175
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-6               1.462
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-7              -0.427
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-4              -0.803
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-5              -1.259
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-6              -0.919
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-7                  NA
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-4                  0.452
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-5                  0.068
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-6                  0.116
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-7                     NA
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-4               0.221
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-5               0.641
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-6               2.108
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-7                  NA
+                                                                         Pr(>|t|)
+(Intercept)                                                               < 2e-16
+Total.Evidence                                                            0.01486
+Last.Evidence                                                             < 2e-16
+factor(Experiment)1                                                       0.29301
+factor(Experiment)2                                                       0.70428
+factor(Experiment)3                                                       0.72345
+factor(Experiment)4                                                      8.32e-05
+factor(Game.Net)095ddcbc-rounds-10-evidence-4-big-experiment-high-prob-5  0.75569
+factor(Game.Net)095ddcbc-rounds-10-evidence-4-big-experiment-high-prob-6  0.35982
+factor(Game.Net)095ddcbc-rounds-10-evidence-4-big-experiment-high-prob-7  0.87076
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-4                 0.03795
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-5                 0.42543
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-6                 0.06244
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-7                 0.01303
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-4            0.07527
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-5            0.73170
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-6            0.78933
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-7                 NA
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-4              0.00483
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-5              0.00111
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-6              0.07353
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-7              0.01435
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-4              0.62213
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-5              0.24018
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-6              0.14390
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-7              0.66911
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-4              0.42187
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-5              0.20803
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-6              0.35839
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-7                   NA
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-4                 0.65126
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-5                 0.94562
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-6                 0.90739
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-7                      NA
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-4              0.82473
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-5              0.52146
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-6              0.03518
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-7                   NA
+                                                                            
+(Intercept)                                                              ***
+Total.Evidence                                                           *  
+Last.Evidence                                                            ***
+factor(Experiment)1                                                         
+factor(Experiment)2                                                         
+factor(Experiment)3                                                         
+factor(Experiment)4                                                      ***
+factor(Game.Net)095ddcbc-rounds-10-evidence-4-big-experiment-high-prob-5    
+factor(Game.Net)095ddcbc-rounds-10-evidence-4-big-experiment-high-prob-6    
+factor(Game.Net)095ddcbc-rounds-10-evidence-4-big-experiment-high-prob-7    
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-4                *  
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-5                   
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-6                .  
+factor(Game.Net)18a75a2d-data-2018-03-19-big-experiment-7                *  
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-4           .  
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-5              
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-6              
+factor(Game.Net)6b2b35f0-rounds-10-evidence-1-bit-experiment-7              
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-4             ** 
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-5             ** 
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-6             .  
+factor(Game.Net)70f80fdf-rounds-10-evidence-1-population-5-7             *  
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-4                
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-5                
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-6                
+factor(Game.Net)abf00068-rounds-10-evidence-4-population-5-7                
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-4                
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-5                
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-6                
+factor(Game.Net)b7d0390f-rounds-10-evidence-4-population-5-7                
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-4                   
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-5                   
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-6                   
+factor(Game.Net)d75786f7-data-2018-01-25-big-experiment-7                   
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-4                
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-5                
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-6             *  
+factor(Game.Net)d9145d2a-rounds-10-evidence-1-population-5-7                
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1846 on 2270 degrees of freedom
+Multiple R-squared:  0.2693,	Adjusted R-squared:  0.2587 
+F-statistic: 25.35 on 33 and 2270 DF,  p-value: < 2.2e-16
+
+                    2.5 %     97.5 %
+Total.Evidence 0.01022063 0.09431761

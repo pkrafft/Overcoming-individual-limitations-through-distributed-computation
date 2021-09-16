@@ -1,0 +1,78 @@
+
+Preregistered Test
+
+Call:
+lm(formula = Popularity ~ Total.Evidence + Last.Evidence + Game.Net, 
+    data = sub.df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.27215 -0.08852 -0.01580  0.09471  0.32418 
+
+Coefficients:
+                                                          Estimate Std. Error
+(Intercept)                                               -0.05691    0.06027
+Total.Evidence                                             0.22354    0.11017
+Last.Evidence                                              0.84525    0.05624
+Game.Net5aa2346f-cef8-9bbc-5eb9-ba97f76b76ed-data/data/-4  0.16410    0.04777
+Game.Netc40e84e2-86a3-a44b-1726-d1a9e1f1d715-data/data/-3  0.00446    0.04090
+Game.Netc40e84e2-86a3-a44b-1726-d1a9e1f1d715-data/data/-4  0.03559    0.04608
+Game.Netd3ffdda3-b0c3-a671-76d0-e2c3206afbff-data/data/-3  0.03392    0.04378
+Game.Netd3ffdda3-b0c3-a671-76d0-e2c3206afbff-data/data/-4  0.02889    0.04811
+                                                          t value Pr(>|t|)    
+(Intercept)                                                -0.944 0.347053    
+Total.Evidence                                              2.029 0.044831 *  
+Last.Evidence                                              15.028  < 2e-16 ***
+Game.Net5aa2346f-cef8-9bbc-5eb9-ba97f76b76ed-data/data/-4   3.435 0.000831 ***
+Game.Netc40e84e2-86a3-a44b-1726-d1a9e1f1d715-data/data/-3   0.109 0.913363    
+Game.Netc40e84e2-86a3-a44b-1726-d1a9e1f1d715-data/data/-4   0.772 0.441546    
+Game.Netd3ffdda3-b0c3-a671-76d0-e2c3206afbff-data/data/-3   0.775 0.440181    
+Game.Netd3ffdda3-b0c3-a671-76d0-e2c3206afbff-data/data/-4   0.600 0.549387    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1375 on 112 degrees of freedom
+Multiple R-squared:  0.7897,	Adjusted R-squared:  0.7765 
+F-statistic: 60.07 on 7 and 112 DF,  p-value: < 2.2e-16
+
+                     2.5 %    97.5 %
+Total.Evidence 0.005246089 0.4418417
+
+Full Data
+
+Call:
+lm(formula = Popularity ~ Total.Evidence + Last.Evidence + Game.Net, 
+    data = df)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.43445 -0.09737 -0.00071  0.09680  0.35697 
+
+Coefficients:
+                                                           Estimate Std. Error
+(Intercept)                                               -0.097171   0.030840
+Total.Evidence                                             0.237315   0.052286
+Last.Evidence                                              0.910888   0.031130
+Game.Net5aa2346f-cef8-9bbc-5eb9-ba97f76b76ed-data/data/-4  0.047069   0.025457
+Game.Netc40e84e2-86a3-a44b-1726-d1a9e1f1d715-data/data/-3 -0.005781   0.024255
+Game.Netc40e84e2-86a3-a44b-1726-d1a9e1f1d715-data/data/-4  0.005648   0.024465
+Game.Netd3ffdda3-b0c3-a671-76d0-e2c3206afbff-data/data/-3  0.044625   0.025404
+Game.Netd3ffdda3-b0c3-a671-76d0-e2c3206afbff-data/data/-4  0.030732   0.025644
+                                                          t value Pr(>|t|)    
+(Intercept)                                                -3.151  0.00174 ** 
+Total.Evidence                                              4.539 7.38e-06 ***
+Last.Evidence                                              29.260  < 2e-16 ***
+Game.Net5aa2346f-cef8-9bbc-5eb9-ba97f76b76ed-data/data/-4   1.849  0.06516 .  
+Game.Netc40e84e2-86a3-a44b-1726-d1a9e1f1d715-data/data/-3  -0.238  0.81173    
+Game.Netc40e84e2-86a3-a44b-1726-d1a9e1f1d715-data/data/-4   0.231  0.81752    
+Game.Netd3ffdda3-b0c3-a671-76d0-e2c3206afbff-data/data/-3   1.757  0.07971 .  
+Game.Netd3ffdda3-b0c3-a671-76d0-e2c3206afbff-data/data/-4   1.198  0.23141    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.1433 on 424 degrees of freedom
+Multiple R-squared:  0.7923,	Adjusted R-squared:  0.7888 
+F-statistic:   231 on 7 and 424 DF,  p-value: < 2.2e-16
+
+                   2.5 %    97.5 %
+Total.Evidence 0.1345429 0.3400881
